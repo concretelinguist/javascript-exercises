@@ -30,3 +30,8 @@ blackDiv.appendChild(innerP);
 
 //finally, add the black div to the container
 container.appendChild(blackDiv);
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', () => {
+    alert("Hello!");
+});
